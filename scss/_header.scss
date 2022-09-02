@@ -1,0 +1,59 @@
+.header {
+  padding: 20px 0;
+
+  // .header__navigation
+  &__navigation {}
+}
+
+.navigation {
+
+  // .navigation__list
+  &__list {
+    justify-content: flex-end;
+  }
+
+  // .navigation__item
+  &__item {
+    margin: 0 15px;
+  }
+
+  // .navigation__link
+  &__link {
+    display: inline-block;
+
+    transform: scale(1);
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    // .navigation__link_mail
+    &_mail {}
+
+    // .navigation__link_images
+    &_images {}
+
+    // .navigation__link_popup
+    &_popup {
+      width: 24px;
+      height: 24px;
+      background: url("../images/popup-icons/popup-button.png") 0 0 / 100% no-repeat;
+    }
+
+    // .navigation__link_bell
+    &_bell {
+      width: 24px;
+      height: 24px;
+      background: url("../images/popup-icons/bell.png") 0 0 / 100% no-repeat;
+    }
+
+    // .navigation__link_user
+    &_user {
+      width: 30px;
+      height: 30px;
+      background: url("../images/popup-icons/ava-l.png") 0 0 / 100% no-repeat;
+      border-radius: 50%;
+    }
+  }
+}
