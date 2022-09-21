@@ -24,12 +24,9 @@
     transform: scale(1);
     transition: 0.3s;
 
-    &:hover {
-      transform: scale(1.1);
-    }
-
+    &:hover,
     &:focus {
-      border: 2px solid blue;
+      transform: scale(1.1);
     }
 
     // .navigation__link_mail
