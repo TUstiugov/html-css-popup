@@ -185,7 +185,7 @@ img {
   gap: 20px;
   padding: 20px;
 }
-.popup__container > li {
+.popup__list-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
