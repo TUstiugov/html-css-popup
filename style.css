@@ -200,12 +200,11 @@ img {
   align-items: center;
   flex: 0 0 100%;
   padding: 30px;
+  transform: scale(1);
+  transition: 0.3s;
 }
-.popup__item:hover {
-  border: 1px solid lightgrey;
-}
-.popup__item:focus {
-  border: 2px solid blue;
+.popup__item:hover, .popup__item:focus {
+  transform: scale(1.2);
 }
 .popup__image {
   margin: 0 0 10px 0;
@@ -233,7 +232,7 @@ img {
   cursor: pointer;
 }
 .popup__label:focus {
-  border: 2px solid blue;
+  color: blue;
 }
 .popup__more-content {
   display: none;
